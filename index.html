@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Afonso</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute("href");
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({behavior: "smooth"});
+                    }
+                });
+            });
+        });
+    </script>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#Perfil">Perfil</a>
+            <a href="#RedesS">Redes Sociais</a>
+            <a href="#Fotos">Fotos</a>
+        </nav>
+    </header>
+    <div class="tudo">
+        <ul id="Perfil" class="nome">
+          <img alt="Foto" class="img" src="https://scontent.fcgr5-1.fna.fbcdn.net/v/t39.30808-6/462771502_4651661488391563_6079425082127561229_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGUDMYryRYzGGFs8DlUbDCZMIUl4tERVFIwhSXi0RFUUpP19OCWHvkaSo-MYqFPIOO3KGLqVpoYu1PAjDVY1HZP&_nc_ohc=z7qqgLv2oXcQ7kNvgF6ZdFG&_nc_zt=23&_nc_ht=scontent.fcgr5-1.fna&_nc_gid=AiQDYZRr5X8I9IDsrwefJFb&oh=00_AYCfNkdijD3ByNDdTwfEHHoyXTRY4-eOuWWfEvW_R9CjUA&oe=679F0E66"><br>
+          <h1>Paulo Afonso Francisco da Silva</h1>
+          <h5 id="RedesS" class="aga5">Militar</h5> <!--Coloquei aqui o id RedesS para que quando a pessoa clique nele fique um pouco centralizado :> -->
+        </ul>
+        <h2>Redes Sociais</h2>
+                <div class="grupobotoes">
+                    <a href="https://www.instagram.com/pauloguerra022/"><button class="botao"><img class="imgbotao" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-social-platform-icon-png-image_6315976.png"> Instagram</button><br>
+                    <a href="https://www.facebook.com/paulo.guerra.35110418"><button class="botao"><img class="imgbotao" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png"> Facebook</button></a><br>
+                </div>
+    </div>
+    <h2 id="Fotos">Fotos</h2>
+    <div class="containerfotosUp">
+        <div class="item"><img class="fotos" src="https://scontent.fcgr5-1.fna.fbcdn.net/v/t1.6435-9/83368767_3104637379760656_3066059393201078272_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=vV9CVO5UuhgQ7kNvgHjV5KQ&_nc_zt=23&_nc_ht=scontent.fcgr5-1.fna&_nc_gid=ALLNNHXcHFY2C7ZDUxQQYqD&oh=00_AYCahJ18LIgmc8ifqnlvi2vto-uIecpkEUwt9Nfl7sfM0w&oe=67CB28DF"> </div>
+        <div class="item"><img class="fotos" src="https://scontent.fcgr5-1.fna.fbcdn.net/v/t39.30808-6/453996419_4572093483015031_4936909452998369679_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UZV0Xyaim1cQ7kNvgEAlI1Y&_nc_zt=23&_nc_ht=scontent.fcgr5-1.fna&_nc_gid=AIi68FXVGoZ_HX-tmHVZU-z&oh=00_AYBTxFNq8OQbFBxd21_1WviGZsVF3ZhNnpJtxTK4WJxVjw&oe=67A9C323"></div>
+        <div class="item"><img class="fotos" src="https://scontent.fcgr5-1.fna.fbcdn.net/v/t39.30808-6/450261752_4547762285448151_2734932176866899295_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=unMqvY48ILoQ7kNvgGWfpI_&_nc_zt=23&_nc_ht=scontent.fcgr5-1.fna&_nc_gid=APIZpRH3eu1ET2IX2VJWIGt&oh=00_AYBB-dRmG2lyKkK9Vd8LOQ7xe35kX2TQLjjxQ5wxvZIfOA&oe=67A99039"></div>
+    </div>
+    <div class="containerfotosDown">
+        <div class="item"><img class="fotos" src="https://scontent.fcgr5-1.fna.fbcdn.net/v/t1.6435-9/86460028_3125926134298447_5905161672120598528_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=h9ivgCTI8OoQ7kNvgEjJsSR&_nc_zt=23&_nc_ht=scontent.fcgr5-1.fna&_nc_gid=AZF5Z792VBYGTp63XR1OySK&oh=00_AYB6tcg7p-MXcCF_YZaohYsKvAR-iBlpuwrjg3BvjAuLQA&oe=67CB2B4F"></div>
+        <div class="item"><img class="fotos" src="img/paulo.png"></div>
+        <div class="item"><img class="fotosM" src="https://scontent.fcgr5-1.fna.fbcdn.net/v/t1.6435-9/67176777_2920897554801307_7780934393211650048_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=HUgo_XXyuZEQ7kNvgHvlsug&_nc_zt=23&_nc_ht=scontent.fcgr5-1.fna&_nc_gid=AdazyA33Ft2E0Y66M8mVWxR&oh=00_AYANlE4Dh2fd5z0PybPS36rYN4njBpONmPjTsR7nHmQQ1A&oe=67CB5C30"></div>
+    </div>
+
+</body>
+<!--Criado por Marcos Paulo Brito da Silva 2025-->
+</html>

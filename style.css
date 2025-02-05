@@ -1,0 +1,134 @@
+body {
+    background-color: #333333;
+    text-align: center;
+   }
+   header {
+    background-color: #363636;
+    padding: 10px 0 10px 0;
+   }
+   nav a {
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 0,7cm;
+    font-weight: bold;
+    transition-duration: 1s;
+   }
+   a:hover {
+    color: grey;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 18px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+   }
+   .tudo {
+    background-color: #002e52;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 50px;
+    margin-top: 50px;
+   }
+   .nome {
+    background-color: #032138;
+    padding: 10px;
+    padding-top: 30px;
+    color: #00BFFF;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+    border-radius: 50px;
+   }
+   .img {
+    border: solid 3px;
+    color: black;
+    border-radius: 1px;
+    height: 200px;
+    transition-duration: 0.5s;
+   }
+   .img:hover {
+    border: solid 3px;
+    color: black;
+    border-radius: 1px;
+    height: 210px;
+    transition-duration: 1s;
+   }
+   .aga5 {
+    color: #1E90FF;
+   }
+   h2 {
+    color: #87CEFA;
+    font-family: Aptos;
+   }
+    .grupobotoes {
+   padding: 5px;
+    }
+    .botao {
+    background-color: #B0C4DE;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    color: #696969;
+    font-family: Times New Roman;
+    height: 50px;
+    width: 200px;
+    transition-duration: 1s;
+   }
+    .botao:hover {
+    background-color: #4682B4;
+    height: 60px;
+    width: 210px;
+    transition-duration: 1s;
+    color: black;
+   }
+    .imgbotao {
+    height: 30px;
+   }
+   .containerfotosUp{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #002e52;
+    border-radius: 20px 20px 0 0;
+   }
+   .containerfotosDown{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #002e52;
+    border-radius: 0 0 20px 20px;
+   }
+    .item{
+    width: 80%;
+    background-color: #032138; 
+    border: solid 2px #031726;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+   }
+   .fotos {
+    margin: 10px;
+    height: 300px;
+    border-radius: 10px;
+    transition-duration: 1s;
+   }
+   .fotos:hover {
+    margin: 10px;
+    height: 350px;
+    border-radius: 10px;
+    transition-duration: 2s;
+   }
+   .fotosM {
+    margin: 10px;
+    height: 272px;
+    border-radius: 20px;
+    transition-duration: 1s;
+   }
+   .fotosM:hover {
+    margin: 10px;
+    height: 300px;
+    border-radius: 20px;
+    transition-duration: 2s;
+   }
