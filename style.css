@@ -4,24 +4,20 @@ body {
    }
    header {
     background-color: #363636;
-    padding: 10px 0 10px 0;
+    padding: 10px 1px 10px 1px;
    }
    nav a {
     color: black;
     align-items: center;
     text-decoration: none;
     margin: 0 30px;
-    font-size: 0,7cm;
+    font-size: 15px;
     font-weight: bold;
     transition-duration: 1s;
    }
    a:hover {
     color: grey;
-    align-items: center;
-    text-decoration: none;
-    margin: 0 30px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
     transition-duration: 0.5s;
    }
    .tudo {
@@ -43,16 +39,12 @@ body {
     border-radius: 50px;
    }
    .img {
-    border: solid 3px;
-    color: black;
+    border: solid 3px black;
     border-radius: 1px;
     height: 200px;
     transition-duration: 0.5s;
    }
    .img:hover {
-    border: solid 3px;
-    color: black;
-    border-radius: 1px;
     height: 210px;
     transition-duration: 1s;
    }
@@ -109,26 +101,180 @@ body {
     align-items: center;
    }
    .fotos {
-    margin: 10px;
+    margin: 10px 5px 10px 5px;
     height: 300px;
     border-radius: 10px;
     transition-duration: 1s;
    }
    .fotos:hover {
-    margin: 10px;
     height: 350px;
+    transition-duration: 2s;
+   }
+
+@media (max-width: 1170px) {
+    .fotos {
+    margin: 10px 5px 10px 5px;
+    height: 200px;
     border-radius: 10px;
-    transition-duration: 2s;
-   }
-   .fotosM {
-    margin: 10px;
-    height: 272px;
-    border-radius: 20px;
     transition-duration: 1s;
-   }
-   .fotosM:hover {
-    margin: 10px;
-    height: 300px;
-    border-radius: 20px;
+    }
+    .fotos:hover {
+    height: 210px;
     transition-duration: 2s;
-   }
+    }
+}
+
+@media (max-width: 870px) {
+    .fotos {
+    margin: 8px 2px 2px 2px;
+    height: 100px;
+    border-radius: 10px;
+    transition-duration: 1s;
+    }
+    .fotos:hover {
+    height: 110px;
+    transition-duration: 2s;
+    }
+    #paulo2 {
+    height: 110px;
+    }
+    #paulo2:hover {
+    height: 120px;
+    }
+}
+
+@media (max-width: 474px) {
+    .fotos {
+    margin: 3px 2px 2px 2px;
+    height: 80px;
+    border-radius: 10px;
+    transition-duration: 1s;
+    }
+    .fotos:hover {
+    height: 90px;
+    transition-duration: 2s;
+    }
+    #paulo2 {
+        height: 75px;
+    }
+    #paulo2:hover {
+        height: 80px;
+    }
+}
+
+@media (max-width: 397px) {
+    .fotos {
+    margin: 3px 2px 2px 2px;
+    height: 70px;
+    border-radius: 10px;
+    transition-duration: 1s;
+    }
+    .fotos:hover {
+    height: 80px;
+    transition-duration: 2s;
+    }
+    #paulo2 {
+        height: 70px;
+    }
+    #paulo2:hover {
+        height: 75px;
+    }
+    .img {
+    border: solid 3px black;
+    border-radius: 1px;
+    height: 150px;
+    transition-duration: 0.5s;
+    }
+    .img:hover {
+    height: 160px;
+    transition-duration: 1s;
+    }
+    nav a {
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+    transition-duration: 1s;
+    }
+    a:hover {
+     color: grey;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    }
+}
+
+@media (max-width: 350px) {
+    .fotos {
+    margin: 3px 2px 2px 2px;
+    height: 55px;
+    border-radius: 10px;
+    transition-duration: 1s;
+    }
+    .fotos:hover {
+    height: 60px;
+    transition-duration: 2s;
+    }
+    #paulo2 {
+    height: 60px;
+    }
+    #paulo2:hover {
+    height: 62px;
+    }
+    .img {
+    border: solid 2px black;
+    border-radius: 1px;
+    height: 120px;
+    transition-duration: 0.5s;
+    }
+    .img:hover {
+    height: 130px;
+    transition-duration: 1s;
+    }
+    .botao {
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    height: 50px;
+    width: 150px;
+    }
+    .botao:hover {
+    height: 60px;
+    width: 160px;
+    }
+    .imgbotao {
+    height: 25px;
+    }
+}
+
+@media (max-width: 310px) {
+    .img {
+    height: 100px;
+    }
+    .img:hover {
+    height: 110px;
+    transition-duration: 1s;
+    }
+    .botao {
+    padding: 5px;
+    margin: 5px;
+    height: 40px;
+    width: 130px;
+    }
+    .botao:hover {
+    height: 45px;
+    width: 140px;
+    }
+    .imgbotao {
+    height: 20px;
+    }
+    nav a {
+    margin: 0 10px;
+    font-size: 12px;
+    }
+    a:hover {
+    font-size: 13px;
+    }
+}
